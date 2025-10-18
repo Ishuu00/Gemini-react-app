@@ -1,6 +1,6 @@
 import { ArrowLeftRight, Banana, ChevronDown, Mic, Plus, Send, SendHorizonal, } from 'lucide-react'
 import { useContext } from 'react'
-import { UserContext } from '../../context/context'
+import { UserContext } from '../../context/Context'
 import { MarkdownHooks } from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
