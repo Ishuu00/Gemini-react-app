@@ -30,7 +30,7 @@ const Main = () => {
           //Gemini intro
           <div className=' flex-1 flex flex-col justify-center items-center '>
             <h1 className='text-4xl font-medium bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent mb-5'>Hello, Ishu</h1>
-            <div className='mt-4 flex flex-wrap gap-2.5 text-gray-800 '>
+            <div className='mt-4 mx-3 flex flex-wrap gap-2.5 text-gray-800 '>
               <h2 className='px-5 py-2.5 bg-[#f0f4f9] inline rounded-3xl hover:bg-gray-200 cursor-pointer'>Create Image</h2>
               <h2 className='px-5 py-2.5 bg-[#f0f4f9] inline rounded-3xl hover:bg-gray-200 cursor-pointer'>Write</h2>
               <h2 className='px-5 py-2.5 bg-[#f0f4f9] inline rounded-3xl hover:bg-gray-200 cursor-pointer'>Build</h2>

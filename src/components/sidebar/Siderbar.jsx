@@ -30,7 +30,7 @@ const Siderbar = () => {
         </div>
       ) : (
         // Expanded sidebar
-        <div className='w-95 bg-[#f0f4f9] px-4 relative text-gray-600 overflow-hidden transition-all duration-300 ease-out'>
+        <div className='w-95 bg-[#f0f4f9] px-4 relative text-gray-600 overflow-hidden transition-all duration-300 ease-out sm:block hidden'>
           <div className='flex justify-between p-1.5 rounded-3xl mt-3'>
             <MenuIcon
               onClick={() => setExtended(true)}
