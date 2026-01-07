@@ -70,7 +70,7 @@ const Main = () => {
                   <div className='flex justify-start mb-6'>
                     <div className='max-w-[100%]  rounded-t-2xl rounded-r-2xl px-4 py-3'>
                       <div className='tracking-wide font-[Roboto] leading-relaxed select-text'>
-                        <div>
+                        <div className=' antialiased text-gray-700'>
                           {/*used fomatting of api response by react markdownhooks  */}
                           <MarkdownHooks remarkPlugins={[remarkGfm]}>
                             {resultData}
